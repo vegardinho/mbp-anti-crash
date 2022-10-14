@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- Run with low priority, as vegardlandsverk -->
+<dict>
+    <key>Label</key>
+    <string>com.vegardlandsverk.mbp-anti-crash-lvl1</string>
+
+    <key>UserName</key>
+    <string>vegardlandsverk</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/vegardlandsverk/Documents/Progging/personal/mbp-anti-crash/MBP-Anti-Crash_Level_1.py</string>
+    </array>
+
+    <key>RunAtLoad</key>
+        <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/vegardlandsverk/Documents/Progging/personal/mbp-anti-crash/launchd.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/vegardlandsverk/Documents/Progging/personal/mbp-anti-crash/launchd.err</string>
+
+    <key>KeepAlive</key>
+        <true/>
+
+    <key>Nice</key>
+    <integer>20</integer>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+
+    <key>LowPriorityIO</key>
+        <true/>
+
+</dict>
+</plist>
