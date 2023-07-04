@@ -5,4 +5,4 @@ import os
 
 #os.system ("killall ScriptMonitor")
 while True:
-  sleep(0.0001)
+  sleep(0.00005)
